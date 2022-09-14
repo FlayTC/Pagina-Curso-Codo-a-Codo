@@ -1,0 +1,166 @@
+*{
+    margin: 0.2% 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  body {
+    background-color: #000000;
+  }
+
+  header {
+      width: 99%;
+      margin-right: 3px;
+      margin-left: 3px;
+      padding: 3px 3px 3px 3px;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+    } 
+
+  .ContenedorTitulo {
+    display: flex;
+    justify-content: space-between;
+   }
+    .Titulo {
+      margin-left: 10px;
+      letter-spacing: 5px;
+      font-size: 2.5rem;
+      font-family: 'Ms Madi';
+    }
+  
+   .Menu li>a{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    border-radius: 5px;
+     }
+    .Menu li>a:hover{
+      color: rgb(255, 0, 242);
+      background-color: #4a4a4a;
+    }
+      .Menu ul li{
+        display: inline-block;
+      }
+
+  .primerParrafo {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  article {
+    width: 98%;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   }
+
+   .italica {
+    font-style: italic;
+   }
+
+   .negrita {
+    font-weight: bold;
+    font-style: italic;
+ 
+ }
+
+    h1 {
+    font-weight: bold;
+    font-size: 30px;  
+    } 
+
+  .h5 {
+    color: rgb(255, 254, 254);
+    -webkit-text-stroke: 0.5px #1637a3;
+   }
+
+  
+/*.cuerpo
+{
+    position: relative;
+    display: flex;
+    background-image: url("/img/PrimeraFoto.jpg");
+    justify-content: flex-end;
+  
+}
+
+.cuerpo {
+	-webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.Texto
+{
+    max-width: 35rem;
+    text-align: left;
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-family: 'Bebas Neue';
+    text-shadow: 2px 2px #af2298;
+    -webkit-text-stroke: 0.7px #000000;
+}*/
+
+
+ footer{
+    padding: 2px;
+    margin: 10px;
+    height: 25px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif
+   
+ }
+
+ .PieDePagina li>a{
+  background-color:transparent;
+  height: auto;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 5px;
+ 
+   }
+
+.PieDePagina li>a:hover{
+  color: rgb(21, 0, 255);
+  background-color: transparent;
+}
+
+.PieDePagina>li{
+  float: right;
+  text-align:center
+}
